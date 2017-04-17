@@ -1,7 +1,7 @@
 package p01
 
 class LastElement {
-  def last(list: List[Int]): Int = {
+  def last[A](list: List[A]): A = {
     list.last
   }
 }
