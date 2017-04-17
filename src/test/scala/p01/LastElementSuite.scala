@@ -11,7 +11,7 @@ class LastElementSuite extends FunSuite{
   }
 
   test("last: list of strings"){
-    assert(new LastElement().last(List('aasdf', 'awesrfv', 'sfgh', 'sdfr', 'qer', 'ktyufj')) === 'ktyufj')
+    assert(new LastElement().last(List("aasdf", "awesrfv", "sfgh", "sdfr", "qer", "ktyufj")) === "ktyufj")
   }
 
   test("last: empty list"){
