@@ -1,4 +1,4 @@
-package p01
+package p02
 
 import org.scalatest.FunSuite
 
