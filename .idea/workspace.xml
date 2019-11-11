@@ -24,17 +24,12 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/99-scala-problems-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="Add intellij config for 3 problems">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/p04/ListSize.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/p05/ReverseList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/p04/ListSizeSuite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/p05/ReverseListSuite.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.KthElementSuite">
+  <component name="RunManager" selected="ScalaTest.ReverseList">
     <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
       <setting name="environment" value="" />
       <setting name="specsToExecute" value="" />
@@ -214,6 +209,8 @@
       <item itemvalue="ScalaTest.LastElementSuite" />
       <item itemvalue="ScalaTest.SecondToLastElementSuite" />
       <item itemvalue="ScalaTest.KthElementSuite" />
+      <item itemvalue="ScalaTest.ListSize" />
+      <item itemvalue="ScalaTest.ReverseList" />
     </list>
     <recent_temporary>
       <list>
@@ -284,39 +281,22 @@
       <option name="presentableId" value="Default" />
       <updated>1492394494141</updated>
     </task>
+    <task id="LOCAL-00001" summary="Upgrade to new sbt and scala version">
+      <created>1573498078762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573498078762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add intellij config for 3 problems">
+      <created>1573498145092</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573498145092</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="KthElementSuite - 2017.05.06 at 10h 30m 16s.xml">
-      <configuration name="KthElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="KthElementSuite - 2017.05.06 at 10h 31m 33s.xml">
-      <configuration name="KthElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LastElementSuite - 2017.04.16 at 22h 07m 14s.xml">
-      <configuration name="LastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LastElementSuite - 2017.04.16 at 22h 08m 49s.xml">
-      <configuration name="LastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LastElementSuite - 2017.04.16 at 22h 10m 23s.xml">
-      <configuration name="LastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LastElementSuite - 2017.04.16 at 22h 13m 50s.xml">
-      <configuration name="LastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="LastElementSuite - 2017.04.16 at 22h 23m 10s.xml">
-      <configuration name="LastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SecondToLastElementSuite - 2017.04.16 at 22h 33m 41s.xml">
-      <configuration name="SecondToLastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SecondToLastElementSuite - 2017.04.16 at 22h 33m 48s.xml">
-      <configuration name="SecondToLastElementSuite" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SecondToLastElementSuite_(1) - 2017.04.16 at 22h 46m 58s.xml">
-      <configuration name="SecondToLastElementSuite (1)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -328,6 +308,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Upgrade to new sbt and scala version" />
+    <MESSAGE value="Add intellij config for 3 problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add intellij config for 3 problems" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
