@@ -15,4 +15,10 @@ class p09ListGroupConsecutiveDuplicatesSuite extends FunSuite {
         .group(List(1, 1, 1, 1, 2, 2, 2, 3, 4, 4, 4, 5, 6, 6))
     }
   }
+
+  test("Should support empty lists") {
+    assertResult(List.empty) {
+      new p09ListGroupConsecutiveDuplicates().group(List.empty)
+    }
+  }
 }

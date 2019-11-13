@@ -20,4 +20,10 @@ class p05ReverseListSuite extends FunSuite {
       rev.reverse(reversed)
     }
   }
+
+  test("Should support empty lists") {
+    assertResult(List.empty) {
+      new p05ReverseList().reverse(List.empty)
+    }
+  }
 }

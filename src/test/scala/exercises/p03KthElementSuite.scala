@@ -16,4 +16,10 @@ class p03KthElementSuite extends FunSuite {
     assertThrows[NoSuchElementException](
       new p03KthElement().kth(List(1, 4, 5), -3))
   }
+
+  test("Should through IndexOutOfBoundsException if k > length of the list") {
+    assertThrows[IndexOutOfBoundsException] {
+      new p03KthElement().kth(List.empty, 4)
+    }
+  }
 }

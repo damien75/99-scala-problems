@@ -23,4 +23,10 @@ class p08EliminateConsecutiveDuplicatesSuite extends FunSuite {
         .eliminate(List("ab", "ab", "fb", "ab", "fb", "sae"))
     }
   }
+
+  test("Should support empty lists") {
+    assertResult(List.empty) {
+      new p08EliminateConsecutiveDuplicates().eliminate(List.empty)
+    }
+  }
 }

@@ -26,4 +26,10 @@ class p06ListPalindromeSuite extends FunSuite {
       new p06ListPalindrome().isPalindrome(List(1, 2, 3, 3, 4, 5))
     }
   }
+
+  test("Should support empty lists") {
+    assertResult(true) {
+      new p06ListPalindrome().isPalindrome(List.empty)
+    }
+  }
 }

@@ -4,7 +4,7 @@ import org.scalatest.FunSuite
 
 class p11ModifiedRunLengthEncodingSuite extends FunSuite {
   test(
-    "Encoding run length should group consecutive similar list elements with occurence") {
+    "Encoding run length should group consecutive similar list elements with occurence if occurence > 1") {
     assertResult(
       List(Right(4, "a"),
            Left("b"),
@@ -27,6 +27,12 @@ class p11ModifiedRunLengthEncodingSuite extends FunSuite {
              "e",
              "e",
              "e"))
+    }
+  }
+
+  test("Should support empty lists") {
+    assertResult(List.empty) {
+      new p11ModifiedRunLengthEncoding().encodeModified(List.empty)
     }
   }
 }

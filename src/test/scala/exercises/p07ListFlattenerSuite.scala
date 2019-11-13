@@ -21,4 +21,10 @@ class p07ListFlattenerSuite extends FunSuite {
         .flatten(List(1, List(2, List(3, List(4, 5), List(6, List(7))))))
     }
   }
+
+  test("Should support empty lists") {
+    assertResult(List.empty) {
+      new p07ListFlattener().flatten(List.empty)
+    }
+  }
 }
