@@ -16,12 +16,16 @@
         <option value="exercises.p13RunLengthEncodingSuite" />
         <option value="exercises.p02SecondToLastElementSuite" />
         <option value="exercises.p14DuplicateListElementsSuite" />
+        <option value="exercises.p15NDuplicateListElementsSuite" />
         <option value="exercises.p11ModifiedRunLengthEncodingSuite" />
+        <option value="exercises.p16DropFrequencyListElementsSuite" />
         <option value="exercises.p08EliminateConsecutiveDuplicatesSuite" />
         <option value="exercises.p09ListGroupConsecutiveDuplicatesSuite" />
         <option value="exercises.p01LastElementSuite" />
+        <option value="exercises.p15NDuplicateListElementsSuite" />
         <option value="exercises.p03KthElementSuite" />
         <option value="exercises.p04ListSizeSuite" />
+        <option value="exercises.p16DropFrequencyListElementsSuite" />
         <option value="exercises.p11ModifiedRunLengthEncodingSuite" />
         <option value="exercises.p12RunLengthDecodingSuite" />
         <option value="exercises.p02SecondToLastElementSuite" />
