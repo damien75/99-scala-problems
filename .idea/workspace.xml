@@ -24,18 +24,16 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p04 and p05 solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p17SplitList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p18SliceList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p19RotateList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p20RemoveElementFromList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p17SplitListSuite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p18SliceListSuite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p19RotateListSuite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p20RemoveElementFromListSuite.scala" afterDir="false" />
+    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p17 p18 p19 p20 solutions">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p21InsertElementToList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p22RangeList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p23SelectRandomElementsFromList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p21InsertElementToListSuite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p21RangeListSuite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p23SelectRandomeElementsFromListSuite.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/exercises/p20RemoveElementFromListSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/exercises/p20RemoveElementFromListSuite.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -412,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573760663934</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="p17 p18 p19 p20 solutions">
+      <created>1574181846661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574181846661</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -440,7 +445,8 @@
     <MESSAGE value="type safe p11" />
     <MESSAGE value="support empty lists for all tests" />
     <MESSAGE value="p15 and p16 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="p15 and p16 solutions" />
+    <MESSAGE value="p17 p18 p19 p20 solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="p17 p18 p19 p20 solutions" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

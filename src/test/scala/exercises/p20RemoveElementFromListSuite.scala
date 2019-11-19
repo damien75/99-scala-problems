@@ -15,7 +15,7 @@ class p20RemoveElementFromListSuite extends FunSuite {
       new p20RemoveElementFromList().remove(List(1, 2, 3), 3))
   }
 
-  test("Should support empty lists") {
+  test("Should throw an exception for empty lists") {
     assertThrows[NoSuchElementException](
       new p20RemoveElementFromList().remove(List.empty, 2))
   }
