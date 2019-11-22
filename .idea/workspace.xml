@@ -24,15 +24,13 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p21 p22 p23 solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p24DrawNFromRange.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p25GenerateRandomPermutation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p24DrawNFromRangeSuite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p25GenerateRandomPermutationSuite.scala" afterDir="false" />
+    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p24 p25 solutions">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p26GenerateCombinationsFromList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p27SplitGroupMultinomialCoefficient.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p26GenerateCombinationsFromListSuite.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p27SplitGroupMultinomialCoefficientSuite.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/exercises/p23SelectRandomeElementsFromListSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/exercises/p23SelectRandomElementsFromListSuite.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -422,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574184359381</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="p24 p25 solutions">
+      <created>1574432585396</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574432585396</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,7 +457,8 @@
     <MESSAGE value="p15 and p16 solutions" />
     <MESSAGE value="p17 p18 p19 p20 solutions" />
     <MESSAGE value="p21 p22 p23 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="p21 p22 p23 solutions" />
+    <MESSAGE value="p24 p25 solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="p24 p25 solutions" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
