@@ -2,7 +2,7 @@ package exercises
 
 import org.scalatest.FunSuite
 
-class p23SelectRandomeElementsFromListSuite extends FunSuite {
+class p23SelectRandomElementsFromListSuite extends FunSuite {
   test(
     "Should select random distinct elements from list and return them as a list") {
     val selection =
