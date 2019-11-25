@@ -24,11 +24,9 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p24 p25 solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p26GenerateCombinationsFromList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p27SplitGroupMultinomialCoefficient.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p26GenerateCombinationsFromListSuite.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p27SplitGroupMultinomialCoefficientSuite.scala" afterDir="false" />
+    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p26 p27 solutions">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p28SortNestedList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p28SortNestedListSuite.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -279,6 +277,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="3147768622933" />
         <entry key="$PROJECT_DIR$/build.sbt" value="2496254097" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
         <entry key="$PROJECT_DIR$/../calculator" value="1429554320000" />
@@ -427,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574432585396</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="p26 p27 solutions">
+      <created>1574443808912</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574443808912</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +464,8 @@
     <MESSAGE value="p17 p18 p19 p20 solutions" />
     <MESSAGE value="p21 p22 p23 solutions" />
     <MESSAGE value="p24 p25 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="p24 p25 solutions" />
+    <MESSAGE value="p26 p27 solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="p26 p27 solutions" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
