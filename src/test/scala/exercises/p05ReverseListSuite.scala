@@ -10,7 +10,9 @@ class p05ReverseListSuite extends FunSuite {
   }
   test("Reversing a list should return the list in reverse order") {
     val l1 = List(5, 4, 3, 2, 1)
-    assertResult(List(1, 2, 3, 4, 5)) { new p05ReverseList().reverse(l1) }
+    assertResult(List(1, 2, 3, 4, 5)) {
+      new p05ReverseList().reverse(l1)
+    }
   }
   test("Reversing a list twice should return the same list") {
     val l1 = List(1, 3, 4, 5, 6)

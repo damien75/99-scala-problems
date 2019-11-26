@@ -12,7 +12,9 @@ class p07ListFlattenerSuite extends FunSuite {
 
   test("Flattener should return same list for a simple list") {
     val l1 = List("ab", "bc", "cd")
-    assertResult(l1) { new p07ListFlattener().flatten(l1) }
+    assertResult(l1) {
+      new p07ListFlattener().flatten(l1)
+    }
   }
 
   test("Flattener should return flat list for a deeply nested list") {

@@ -13,6 +13,7 @@
         <option value="exercises.p19RotateListSuite" />
         <option value="exercises.p01LastElementSuite" />
         <option value="exercises.p05ReverseListSuite" />
+        <option value="exercises.p31PrimeNumberSuite" />
         <option value="exercises.p07ListFlattenerSuite" />
         <option value="exercises.p06ListPalindromeSuite" />
         <option value="exercises.p24DrawNFromRangeSuite" />
@@ -40,6 +41,7 @@
         <option value="exercises.p23SelectRandomElementsFromListSuite" />
         <option value="exercises.p02SecondToLastElementSuite" />
         <option value="exercises.p01LastElementSuite" />
+        <option value="exercises.p31PrimeNumberSuite" />
         <option value="exercises.p21InsertElementToListSuite" />
         <option value="exercises.p07ListFlattenerSuite" />
         <option value="exercises.p05ReverseListSuite" />

@@ -24,9 +24,9 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p26 p27 solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p28SortNestedList.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p28SortNestedListSuite.scala" afterDir="false" />
+    <list default="true" id="98d5f0a4-1cae-4bed-8602-10e57321cb15" name="Default" comment="p28 solution">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/p31PrimeNumber.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/exercises/p31PrimeNumberSuite.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runAllTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -69,7 +69,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.Scalafmt" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Scala" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -465,7 +465,8 @@
     <MESSAGE value="p21 p22 p23 solutions" />
     <MESSAGE value="p24 p25 solutions" />
     <MESSAGE value="p26 p27 solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="p26 p27 solutions" />
+    <MESSAGE value="p28 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="p28 solution" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
