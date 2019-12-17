@@ -1,27 +1,11 @@
-## Synopsis
+# 99 Scala Problems
 
-This is a container for 99 exercises listed here: http://aperiodic.net/phil/scala/s-99/.
+This is a container for [99 exercises](http://aperiodic.net/phil/scala/s-99/).
 The exercises are based on https://sites.google.com/site/prologsite/prolog-problems, written by **Werner Hett**.
 
-## Code Example
+## Build
 
-Code snippets only. No API configured yet
-
-## Motivation
-
-This project is a **playground** to grasp the ideas of functional programming in Scala and get back to algorithmic.
-
-## Installation
-
-Straightforward cloning installation.
-
-## API Reference
-
-No documentation available yet.
-
-## Tests
-
-Standart scalatest library.
+![](https://github.com/damien75/99-scala-problems/workflows/Scala%20CI/badge.svg)
 
 ## Contributors
 
