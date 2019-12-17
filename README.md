@@ -1,7 +1,8 @@
 # 99 Scala Problems
 
-This is a container for [99 exercises](http://aperiodic.net/phil/scala/s-99/).
-The exercises are based on https://sites.google.com/site/prologsite/prolog-problems, written by **Werner Hett**.
+This is a workbench for [99 scala exercises](http://aperiodic.net/phil/scala/s-99).
+
+The exercises are based on the [99 problems](https://sites.google.com/site/prologsite/prolog-problems), written by **Werner Hett**.
 
 ## Build
 
